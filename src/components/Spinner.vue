@@ -59,7 +59,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from "vue";
+import { ref, watch } from "vue";
 import VueWheelSpinner from "vue-wheel-spinner";
 import cursorImage from "../assets/vue.svg";
 import { useWheelStore } from "../stores/wheelStore";
